@@ -25,9 +25,10 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
             <div class="navbar-nav" >
                     <a type="button" class="btn btn-primary" onclick="Servicios();">Servicios</a>  
-                    <a type="button" class="btn btn-primary" onclick="Productos();">Productos</a>   
+                    <a type="button" class="btn btn-primary" onclick="Productos();">Manufactura</a>
                     <a type="button" class="btn btn-primary" onclick="Profitplus();">Profit Plus</a>   
-                    <a type="button" class="btn btn-primary" onclick="Nikkoapps();">Nikkoapps</a>  
+                    <a type="button" class="btn btn-primary" onclick="Nikkoapps();">Nikkoapps</a> 
+                    <a type="button" class="btn btn-primary" onclick="Powerbi();">Power Bi</a> 
                     <a type="button" class="btn btn-primary" onclick="Contacto();">Contacto</a> 
             </div>
         </div> 
@@ -43,7 +44,7 @@
         <div class="card-body">
      
           <p class="card-text" id="view-all">
-            Bienvenidos a nuestro brochure
+            <img src="/src/images/servicios/portada.PNG" style="width: 100%; ">
           </p>
         
         </div>
@@ -63,6 +64,9 @@
         }
         function Contacto(){
             $('#view-all').load('./src/pages/contacto.html')
+        }
+        function Powerbi(){
+            $('#view-all').load('./src/pages/powerbi.html')
         }
       </script>
 </body>
